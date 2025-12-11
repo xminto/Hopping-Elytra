@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
 	"id": "hopping-elytra",
-	"version": "${version}",
+	"version": "${1.0}",
 	"name": "Hopping Elytra",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Bounce of the ground with elytra",
 	"authors": [
 		"minto"
 	],
@@ -19,9 +19,6 @@
             "net.minto.hoppingelytra.HoppingElytraClient"
         ]
 	},
-	"mixins": [
-		"hopping-elytra.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.18.1",
 		"minecraft": "~1.21.10",
